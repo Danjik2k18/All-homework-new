@@ -1,0 +1,87 @@
+/* span {
+  background-color: blue;
+} */
+
+/* #unique {
+  background-color: blue;
+} */
+
+/* .class1 {
+  background-color: chocolate;
+  margin-top: 20px;
+}
+
+ol > li {
+  color: coral;
+}
+
+li + li {
+  color: blueviolet;
+}
+
+.one + #unique {
+  color: blue;
+}
+
+.priority.priority2 {
+  background: yellow;
+}
+
+li {
+  background: green;
+} */
+/* 
+li > ul > li {
+  background-color: black;
+}
+
+li > ul > li + li {
+  background-color: #fff;
+}
+
+.black > li {
+  font-size: 30px;
+}
+ul {
+  list-style-type: decimal;
+}
+ol {
+  list-style-type: disc;
+}
+div {
+  margin: 10px 30px 50px 10px;
+  padding: 10px solid green;
+  border: 2px red solid; 
+} */
+ul li {
+  display: inline;
+
+}
+ol li {
+  display: inline-block; 
+}
+ul{
+  margin-top: 50px;
+}
+
+li {
+  margin: 50px 30px 0 10px;
+  padding: 20px;
+  border: 2px red solid;
+}
+p {
+  font-size: 30px;
+}
+div {
+  background: red;
+}
+div > div {
+  background: yellow;
+  width: 50%;
+}
+.one {
+  background-color: inherit;
+}
+.one span {
+  text-decoration: none;
+}

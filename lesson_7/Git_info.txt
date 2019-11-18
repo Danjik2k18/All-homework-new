@@ -1,0 +1,218 @@
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/gi                       t_project
+$ git init
+Initialized empty Git repository in I:/Саморазвитие/A-level/lesson_7/git_project/.git/
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git add style.css
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   style.css
+
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"test1"
+[master (root-commit) e5ca30a] test1
+ 1 file changed, 9 insertions(+)
+ create mode 100644 style.css
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"first"
+On branch master
+nothing to commit, working tree clean
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git config --global user.name "Dan"
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git config --global user.email "danyaslik26@gmail.com"
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"first"
+On branch master
+nothing to commit, working tree clean
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"test1"
+On branch master
+nothing to commit, working tree clean
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git log
+commit e5ca30ae8f129d3764e0fa1b65aa1de710c22036 (HEAD -> master)
+Author: Dan <example@gmail.com>
+Date:   Sat Nov 16 11:58:03 2019 +0200
+
+    test1
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git config --global user.email "danyaslik26@gmail.com"
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git log
+commit e5ca30ae8f129d3764e0fa1b65aa1de710c22036 (HEAD -> master)
+Author: Dan <example@gmail.com>
+Date:   Sat Nov 16 11:58:03 2019 +0200
+
+    test1
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git config --global user.email "danyaslik26@gmail.com"
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"test1"
+On branch master
+nothing to commit, working tree clean
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git commit -m"first"
+On branch master
+nothing to commit, working tree clean
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git log
+commit e5ca30ae8f129d3764e0fa1b65aa1de710c22036 (HEAD -> master)
+Author: Dan <example@gmail.com>
+Date:   Sat Nov 16 11:58:03 2019 +0200
+
+    test1
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/User/.ssh/id_rsa):
+Created directory '/c/Users/User/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/User/.ssh/id_rsa.
+Your public key has been saved in /c/Users/User/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:+VKzsOK2W6qNvOkutJBj29xNUrVtJO333VkNek2now8 WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44
+The key's randomart image is:
++---[RSA 2048]----+
+|          .      |
+|         o o  . o|
+|        . *  . =o|
+|       . o +..+ +|
+| .    . S + .o..=|
+|+..  . . = oE  oo|
+|.++.. = + o  o   |
+| .o+ *.= .    .  |
+|   +O+*o         |
++----[SHA256]-----+
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ cat ~/.ssh/id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAug9Z8vEttF/HPtzjBspM+Hb0/cmXFDv5kmJYvt/zI6otmqU6
+0eqKHk9i/H2OqKvNQhKF+MKdyrI1UVCVNjRIglNzvofaEmjSp29ItbVl7lexpbeJ
+9RU9DpUjc0Cgb8Z6ld+Upt+cUoh8Vr28hhVD4pAFmo3BRyNZvfxKxkfLgae8+D0e
+TPkg61qThskxoty7jhisBGq8wrZfELu3nhMfXM3MWzUTZIWPnhOymHLi4rSEc8OZ
+ZYd6iaolFgES9HYrBnE4iutu/Y8bf3VN3DrrrrJVxR7TqfRrgmb0F6u25EJwsJWZ
+2ciC1o3ghw00K1EnOVQbvLFrpxBHQtm/lQJ/QwIDAQABAoIBADaY0J1Adlfqjw38
+RUY10NZMGeHq6MFQRBDXeRExqCg8BLvPZm44s6TnSLWsplMKbuXHh7aSbTkQiCK/
+UbmhJ/HOSTWMqcojJkVpm11uyGVjKEbnj7zyKYOA8fEc8rc597jI7db14Oo7ELln
+Xc2+qbfu6SYMGL4mOmxMfyil4qq9rM11rNqorrlmQkBVh5aWW2UOsChAQLhIYCY7
+kQpkYcLZjk5U/t2UTN1/qt8UPHDDLbRy7+gWTMV0YgI/xyqEuPzcRpsrMRe9VjLj
+zDhJSG14t/ArNYOrLVS9CpMPkTjWo9lFlWUHkI8Wxj8qaNnS3bI/XljnruG/2EKk
+zDKRPsECgYEA4CgAzeM9LtVQrY0RFuDrz9DhdXH9la0NFoLxj8ik+YaYSEmVCVB4
+Um4JDeKqGOjRYxgRUgj7K98JPLjIUkIrMdGdb0t9IBOssGC2wOlbkg44YEnlLdrk
+i0SQBBwXaAgHGpeGxdkpFujDM3Z2d0aeOnLsat89xNI5ouNFdaGAb2MCgYEA1H3h
+17ky3lfyIMd/GrCA2UUkS1AI5s7T44yAkGl+A3L93s3ItFRApLdt4NRp143hSXwr
+MuM4oYXOUk3+66nC7tr0nsbvT1BacFXXk0wfJO21sm5dLmPTcLCAuc1b1eB65466
+lPncYco0aFLA1GYiO0ln75Y4PmhWV6n93gApZqECgYApR5SmVdO9nTEHVPQxt2gV
+1EzA2SYu+zhuzdx4cyXWge/nWA2nMneGDpeCRBy5C58L1bHS3q6KrL9BvHG/nEni
+Gc0ZYth/IMBrltPxAMiJRC8jpFgdMrNl5lFzQE0bLmdIgWEjbFOB0YmpH4a/fnTD
+JMjfAY+ZgHF2ys3O1NgXKwKBgQCq2O+9uA0bUlC+ZEhg2CsxBfORji8qDH+3BB/W
+fMsx0MIn4wMNYnR7O3RgAcl743qQ0AIXrzO4QtJJwKZHKr4tt+RYyRBej/e3PH3Q
+07JyyaF+blgDVYYKpA9L1L6S7yNCjLKd12uHQMH0YxzhaaD6VCH6M6jTHKbXYzlX
+xn+DIQKBgAehrG/BMdjXDJ5zJBeGQ0kFUy5rvWhSIOSuUiSft/lLf1IuUkDwrTQS
+Cu0EfQqW6GMVti8+XSCmHkBUgzKIkN57SZ4cL0PxmLGaqIa7pkaPZ39S8Kpf7gFR
+LOABLx4PQSeQtlKA7KfpgYPFdWljFdlmZ2pZbC+zcUhkLO6qqzmS
+-----END RSA PRIVATE KEY-----
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6D1ny8S20X8c+3OMGykz4dvT9yZcUO/mSYli+3/Mjqi2apTrR6ooeT2L8fY6oq81CEoX4wp3KsjVRUJU2NEiCU3O+h9oSaNKnb0i1tWXuV7Glt4n1FT0OlSNzQKBvxnqV35Sm35xSiHxWvbyGFUPikAWajcFHI1m9/ErGR8uBp7z4PR5M+SDrWpOGyTGi3LuOGKwEarzCtl8Qu7eeEx9czcxbNRNkhY+eE7KYcuLitIRzw5llh3qJqiUWARL0disGcTiK6279jxt/dU3cOuuuslXFHtOp9GuCZvQXq7bkQnCwlZnZyILWjeCHDTQrUSc5VBu8sWunEEdC2b+VAn9D WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ ^C
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git remote add origin git@github.com:Danjik2k18/Lesson_8.git
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git remote
+origin
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git remote -v
+origin  git@github.com:Danjik2k18/Lesson_8.git (fetch)
+origin  git@github.com:Danjik2k18/Lesson_8.git (push)
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ git push -u origin master
+The authenticity of host 'github.com (140.82.118.4)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 252 bytes | 126.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:Danjik2k18/Lesson_8.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7/git_project (master)
+$ cd ..
+
+WIN-EOEA3BG1E44+User@WIN-EOEA3BG1E44 MINGW64 /i/Саморазвитие/A-level/lesson_7
+$ git clone git@github.com:Danjik2k18/victorkernes.com.git
+Cloning into 'victorkernes.com'...
+remote: Enumerating objects: 35927, done.
+remote: Total 35927 (delta 0), reused 0 (delta 0), pack-reused 35927
+Receiving objects: 100% (35927/35927), 119.00 MiB | 2.05 MiB/s, done.
+Resolving deltas: 100% (10538/10538), done.
+Checking out files: 100% (16733/16733), done.

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.trapezoid {
+    width: 300px;
+    height: 280px;
+    background: blueviolet;
+    margin-left: 400px;
+    position: relative;
+}
+.trapezoid::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -30px;
+    border: 140px transparent solid;
+    border-right: 140px solid brown;
+    border-bottom: 140px solid brown;
+    left: -280px;
+}
+.trapezoid::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 140px transparent solid;
+    border-top: 140px solid brown;
+    border-left: 140px solid brown;
+    right: -280px;
+}

@@ -1,0 +1,39 @@
+html {
+	min-height:100%;
+}
+body {
+	color: #000;
+	text-align: left;
+	font-size: 1em;
+	min-height:100%;
+	overflow-x: hidden;
+	background: url(../images/fon_basic.jpg); 
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.gallery-item {
+	padding: 0 10px;
+	box-sizing: border-box;
+    display: inline-block;
+    width: 275px;
+	margin: 20px 0 0 12px;
+	vertical-align: top;
+	height: 380px;
+	background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.gallery-item__image img {
+    width: 100%;
+    height: auto;
+}
+.gallery-item__title h2 {
+	padding-left: 10px;
+	font-size: 20px;
+	color: #023;
+}
+.gallery-item__description {
+    padding-left: 10px;
+    font-size: 16px;
+}
